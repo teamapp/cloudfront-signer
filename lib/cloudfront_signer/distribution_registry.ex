@@ -1,7 +1,6 @@
 defmodule CloudfrontSigner.DistributionRegistry do
   @moduledoc """
-  Agent to store and fetch cloudfront distributions, 
-  to avoid expensive runtime pem decodes
+  Agent to store and fetch cloudfront distributions, to avoid expensive runtime pem decodes
   """
   use Agent
   alias CloudfrontSigner.Distribution
